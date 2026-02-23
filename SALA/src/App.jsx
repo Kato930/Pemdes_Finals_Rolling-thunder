@@ -12,12 +12,10 @@ const App = () => {
 
   const fetchData = async () => {
     try {
-      // First call for Status
       const statusRes = await fetch("http://localhost/api/get_status.php");
       const statusData = await statusRes.json();
       setStatus(statusData);
 
-      // Second call for Events - Renamed to eventsRes
       const eventsRes = await fetch("http://localhost/api/get_events.php");
       const eventsData = await eventsRes.json();
       setEvents(eventsData);
