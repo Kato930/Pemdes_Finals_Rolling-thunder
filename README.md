@@ -1,6 +1,6 @@
 Instruction Manual:
 
-First make a folder called Pemdes Finals and add al the files in this git repo in that folder.
+First make a folder called Pemdes Finals and add all the files in this git repo in that folder.
 
 Second add the .sql database in xampp php admin.
 
